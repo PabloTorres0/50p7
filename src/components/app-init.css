@@ -1,0 +1,60 @@
+
+.second-container{
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ps5{
+    width: 50vw;
+    transition: all 1s ease-out;
+}
+
+.ps5-active{
+    width: 70vw;
+}
+.ps5-inactive{
+
+    width: 30vw;
+
+}
+.xbox{
+    width: 50vw;
+    height: 100vh;
+    transition: all 1s ease-out;
+
+
+}
+
+.xbox-active{
+    width: 70vw;
+}
+
+.xbox-inactive{
+    width: 30vw;
+}
+.xbox-image{
+    position: absolute;
+    top:0;
+    right:0;
+    height: 100vh;
+    width: 50vw;   
+    overflow: hidden;
+    transition: all 1s ease-out; 
+}
+.xbox-image-active{
+    width: 70vw;
+}
+.xbox-image-inactive{
+    width: 30vw;
+}
+.pantalla{
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+img{
+    height: 100vh;
+}
